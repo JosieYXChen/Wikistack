@@ -1,0 +1,30 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "something like wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosieYXChen/Wikistack.git"
+  },
+  "keywords": [
+    "wiki"
+  ],
+  "author": "Josie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosieYXChen/Wikistack/issues"
+  },
+  "homepage": "https://github.com/JosieYXChen/Wikistack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
